@@ -27,7 +27,7 @@
 </head>
 <body>
 
-    <section class="grid grid-cols-2 container borde border-teal-800 mx-auto">
+    <section class="grid grid-cols-1 md:grid-cols-2 container borde border-teal-800 mx-auto">
         <div class="banner-left">
             <h2 class="text-[80px] font-bold">
                 It's good <br> tea time at the <br> tea house
@@ -44,8 +44,21 @@
                 </span>
             </button>    
         </div>
-        <div class="banner-right">
+        <div class="banner-right flex justify-end items-end relative">
             <img src="images/banner.png" alt="">
+
+            <div class="bg-teal-500  rounded-xl flex justify-between items-center 
+            absolute bottom-[15px] left-[220px] py-[15px] px-[15px] w-[255px] gap-2">
+                <img src="images/Group 5.png" alt="">
+                <div>
+                    <h2 class="text-2xl">
+                        5.00
+                    </h2>
+                    <p>
+                        Trust Pilot Ratings
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
     
